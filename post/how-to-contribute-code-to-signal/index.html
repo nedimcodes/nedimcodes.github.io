@@ -18,32 +18,34 @@
 
 
 
-	
 
 	
 
 
 
 
-<title>Authors | nedimcodes</title>
-<meta name="description" content="">
-<meta property="og:title" content="Authors | nedimcodes">
+<title>How to Contribute Code to Signal | nedimcodes</title>
+<meta name="description" content="What is Signal Signal is app that has skyrocketed in popularity with beginning of this year, with huge spikes in user migrating from Whatsapp because controversy new Privacy Policy that was introduced.
+Let&rsquo;s build it First thing to understand, Signal is huge project. It has a lot of code, it was written originally in Objective C but throughout the years new features were added in Swift, so it has healthy amount of both languages in it&rsquo;s codebase.">
+<meta property="og:title" content="How to Contribute Code to Signal | nedimcodes">
 <meta property="og:site_name" content="nedimcodes">
-<meta property="og:description" content="">
-<meta property="og:url" content="https://nedimcodes.com/authors/">
+<meta property="og:description" content="What is Signal Signal is app that has skyrocketed in popularity with beginning of this year, with huge spikes in user migrating from Whatsapp because controversy new Privacy Policy that was introduced.
+Let&rsquo;s build it First thing to understand, Signal is huge project. It has a lot of code, it was written originally in Objective C but throughout the years new features were added in Swift, so it has healthy amount of both languages in it&rsquo;s codebase.">
+<meta property="og:url" content="https://nedimcodes.com/post/how-to-contribute-code-to-signal/">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content='https://nedimcodes.com/uploads/default.jpg'><meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Authors | nedimcodes">
+<meta property="og:image" content='https://nedimcodes.com/images/posts/signal-article.png'><meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="How to Contribute Code to Signal | nedimcodes">
 
-	<link rel="canonical" href="https://nedimcodes.com/authors/">
+	<link rel="canonical" href="https://nedimcodes.com/post/how-to-contribute-code-to-signal/">
 
 
 	<meta name="twitter:site" content="@https://twitter.com/nedimcodes">
 	<meta name="twitter:creator" content="@https://twitter.com/nedimcodes">
 
-	<meta name="twitter:description" content="">
-<meta name="twitter:image" content="https://nedimcodes.com/uploads/default.jpg">
+	<meta name="twitter:description" content="What is Signal Signal is app that has skyrocketed in popularity with beginning of this year, with huge spikes in user migrating from Whatsapp because controversy new Privacy Policy that was introduced.
+Let&rsquo;s build it First thing to understand, Signal is huge project. It has a lot of code, it was written originally in Objective C but throughout the years new features were added in Swift, so it has healthy amount of both languages in it&rsquo;s codebase.">
+<meta name="twitter:image" content="https://nedimcodes.com/images/posts/signal-article.png">
 <meta property="article:published_time" content="2021-04-07T21:53:07&#43;02:00">
 	<meta property="article:updated_time" content="2021-04-07T21:53:07&#43;02:00">
 
@@ -114,67 +116,181 @@
 <script src="/js/copyUrl.js"></script>
 
         
+
 <section class="section narrow">
-    <section>
-        <section class="section narrow">
-    <div class="author-hero">
+
+    <section id="articleHero" class="section narrow">
+    <div class="article-hero">
+        <header class="article-header">
+            <h1 class="article-hero-heading">How to Contribute Code to Signal</h1>
+            <div class="article-hero-subtitle">
+                <div class="article-meta">
+                    
+
+
+    
+            <a href="/authors/nedimcodes/" class="article-author-link">
+                
+                    <div class="article-author-avatar">
+                        <img src="/images/nedim-author.jpeg" />
+                    </div>
+                
+                
+                <strong>nedimcodes</strong>
+                
+                <span class="hide-on-mobile">,&nbsp;</span>
+            </a>
+    
+
+
+
+<script src="/js/collapseAuthors.js"></script>
+                    April 7, 2021
+                    • 4 min read
+                </div>
+            </div>
+        </header>
         
-        <h1 class="author-heading">Authors</h1>
-        <p class="author-subheading"></p>
-        <div class="author-social">
-            <div class="social-icon-outer authors-sio">
-    <div class="social-icon-container">
+        <div class="article-hero-image" id="ArticleImage__Hero">
+            <img src="/images/posts/signal-article.png">
+        </div>
         
     </div>
-</div>
+</section>
+
+
+    <aside id="progressBar" class="aside-container">
+    <div class="aside-align">
+      <div>
+        <div class="overlap-container">
+        </div>
+      </div>
+    </div>
+
+    <div class="progress-container" tabIndex={-1}>
+        <div class="track-line" aria-hidden="true">
+            <div id="progressIndicator" class="progress-line"></div>
+        </div>
+    </div>
+</aside>
+
+
+    <article  id="articleContent" class="post-content" style="position:relative;">
+        <h1 id="what-is-signal">What is Signal</h1>
+<p>Signal is app that has skyrocketed in popularity with beginning of this year, with huge spikes in user migrating from Whatsapp because controversy new Privacy Policy that was introduced.</p>
+<h1 id="lets-build-it">Let&rsquo;s build it</h1>
+<p>First thing to understand, Signal is huge project. It has a lot of code, it was written originally in Objective C but throughout the years new features were added in Swift, so it has healthy amount of both languages in it&rsquo;s codebase.</p>
+<p><img src="https://media.giphy.com/media/Rm1p7xp3Odl2o/giphy.gif" alt="building-gif"></p>
+<p>To even start messing around with Signal you&rsquo;ll have to take care of few things.</p>
+<ul>
+<li>Fork <a href="https://github.com/signalapp/Signal-iOS">Signal</a> project</li>
+<li>git clone that project to your mac</li>
+</ul>
+<p>You can&rsquo;t just open .xcworkspace and expect app to build and compile. Signal is very complex piece of software that has a lot of parts built into it, those parts have to be compiled before even attempting to do a build.</p>
+<p>First thing first, you have to install <code>cocapods-binary </code>.  You can do that by typing</p>
+<p><code>gem install cocoapods-binary </code></p>
+<p>Think about cocapods-binary as standard cocapods but for really intensive projects, where build time is really important, and those libraries have to be turned into executable binaries.</p>
+<p><a href="https://github.com/leavez/cocoapods-binary">Cocapods-Binary</a> project:</p>
+<p><code>It will compile the source code of pods during the pod install process, and make CocoaPods use them. Which pod should be compiled is controlled by the flag in Podfile. </code></p>
+<p>After you have added this dependency, it&rsquo;s time to play around with <code>make files</code>.
+I was positively surprised how good script was and that make was so effortlessly executed.</p>
+<p>Enter this into your terminal shell:</p>
+<p><code>make dependencies</code> this will build out all dependencies that are needed.</p>
+<p><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1616851279764/4gr7_H7DU.png" alt="Screenshot 2021-03-27 at 14.21.16.png"></p>
+<p>At this point Xcode will raise error that it wants to unlock certain files and if you click Yes, it will raise another error saying it can&rsquo;t perform that action.
+One way of solving this issue is to change permission to root folder of the project <code>Signal</code> in this case and Pods directory with same method.</p>
+<p>What worked for me was based on this <a href="https://stackoverflow.com/a/53720710/11555781">stackoverflow thread</a></p>
+<p>After you are done with this. Close Xcode and open .xcworkspace.
+<code>Product -&gt; Clean -&gt; Build</code></p>
+<p>Now we wait till project is built, based on your mac performance this can be very lengthy process, also it can be very resource intensive so my advice is to close Chrome and every other resource intensive app.
+If you really need to access internet, use Safari while this process is running.</p>
+<p><img src="https://media.giphy.com/media/9J6TRr1EyWVCMAxV6w/giphy.gif" alt="99 terry cheering"></p>
+<p>After some time you will get this screen:</p>
+<p><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1616851688689/Q1LJkAQbX.png" alt="Screenshot 2021-03-26 at 23.12.55.png"></p>
+<h1 id="add-our-own-little-feature">Add our own little feature</h1>
+<p>Painful part has passed, now it&rsquo;s time to have some fun.  Signal is impressively clean. They follow simple yet efficient architecture.</p>
+<p>First thing to notice when looking at Signal src directory is that it is huge:
+Simple tree command shows us, it has <code>1038 directories, 5239 files</code>.
+Our luck we don&rsquo;t have to understand every part of it.</p>
+<p>Let&rsquo;s execute <code>tree</code> command in <code>Signal/src</code> directory: <code> 54 directories, 452 files</code>.</p>
+<p>Signal loves to extend on it&rsquo;s own custom classes for example all <code>UIViewControllers</code> in the app are extending from custom class <code>OWSViewController</code>.</p>
+<p>(OWS: ** Open Whisper Systems ** organization responsible for Signal)</p>
+<p><code>OWSViewController</code> is not only one custom class that you will find, there is also <code>OWSTableViewController2</code></p>
+<p>Inside comments explains it in this way:</p>
+<p><code>This class offers a convenient way to build table views when performance is not critical, e.g. when the table only holds a screenful or two of cells and it's safe to retain a view model for each cell in memory at all times.</code></p>
+<p>Now we have figured simplest parts of the app, time to add some of our code.
+I have decided easiest thing for us to add, is another option in <code>Profile</code> section.</p>
+<p>Time to locate <code> func updateTableContents()</code> method.
+Inside of it we find <code>mainSection = OWSTableSection()</code> . Let&rsquo;s add one more section.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-swift" data-lang="swift">mainSection.add(.disclosureItem(
+      icon: .settingsLink, name: <span style="color:#e6db74">&#34;Something really cool&#34;</span>,
+      accessibilityIdentifier: <span style="color:#e6db74">&#34;Our new feature accessibility identifier&#34;</span>, actionBlock: {
+    print(<span style="color:#e6db74">&#34;Our new feature&#34;</span>)
+}))
+
+</code></pre></div><p>Put breakpoint under print and run the app.
+If we go to <code>Settings -&gt; Profile</code> we will see UITableView updated with another section called <code>Something really cool</code>.</p>
+<p>Clicking on our new section, rises breakpoint and prints in console our message.</p>
+<p><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1616853770616/7mb-gbUde.png" alt="Screenshot 2021-03-26 at 23.32.52.png"></p>
+<p>Even though this looks unworthy, it is just a start in complex world of the Signal source.</p>
+<h1 id="closing-words">Closing words</h1>
+<p><img src="https://media.giphy.com/media/PizLWrCCo2HK83jI0g/giphy.gif" alt="cartoon"></p>
+<p>Signal is huge project, you&rsquo;ll need to spend days familiarizing yourself with its complex codebase, but after initial few days of looking for methods and issues, you&rsquo;ll get used to it. Signal app is one of my favourite open source projects when it comes to iOS development, because you can learn a lot by just playing around with features that are already built in.</p>
+<h2 id="whoami">whoami</h2>
+<p>I&rsquo;m Nedim, mobile and backend developer. Most of my time is spent by coding new features for my app <a href="https://tweetly.cc">Tweetly</a> also I actively tweet about open source projects I try out, just days ago I tried Zoom&rsquo;s new Video SDK, that project I haven&rsquo;t turned into article like this, but it&rsquo;s worthy read as <a href="https://threadreaderapp.com/thread/1374742486564880387.html">twitter thread</a>.</p>
+<p>You can follow me on <a href="https://twitter.com/nedimcodes">twitter</a> to be up to date with all my endeavors.
+Github: <a href="https://github.com/nedimf">nedimf</a></p>
+
+
+    </article>
+
+    
+
+
+
+
+
+
+
+
+    
+    
+    
+
+<section id="articleNext" class="section nartrow">
+    <h3 class="footer-next-heading">More articles from nedimcodes</h3>
+    <div class="footer-spacer"></div>
+    <div class="next-articles-grid" numberOfArticles={numberOfArticles}>
+        <div class="post-row">
+            
+                <a href="/post/how-to-contribute-code-to-signal/" class="article-link"
+                 id="article-link-bigger">
+                    <div>
+                        <div class="image-container">
+                            <img src="/images/posts/signal-article.png" class="article-image" />
+                        </div>
+                        <div>
+                            <h2 class="article-title">
+                                How to Contribute Code to Signal
+                            </h2>
+                            <p class="article-excerpt">
+                                
+                            </p>
+                            <div class="article-metadata">
+                                April 7, 2021 · 4 min read
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            
         </div>
     </div>
 </section>
-        <section class="section nartrow author-alc-section">
-  <div id="articlesList" class="articles-list-container show-details author-alc">
-    
-    
-      <div class="post-row-alt">
-        
-        
-        
-          
-            <a href="/authors/nedimcodes/" class="article-link">
-              <div class="article-data-outer">
-                <div class="image-container">
-                  <img src="" class="article-image" />
-                </div>
-                <div class="article-data">
-                  <h2 class="article-title">
-                    nedimcodes
-                  </h2>
-                  <p class="article-excerpt">
-                    
-                  </p>
-                  <div class="article-metadata">
-                    April 7, 2021 • 0 min read
-                  </div>
-                </div>
-              </div>
-            </a>
-            
-              <a href="/authors/nedimcodes/" style="opacity: 0;" class="article-link">
-              </a>
-            
-        
-      </div>
-  </div>
-  
 
 </section>
 
 
-<script src="/js/toggleBorder.js"></script>
-
-    </section>
-    <div class="authors-gradient"></div>
-</section>
-
+ <script src="/js/progressBar.js"></script>
 
         
         <div class="footer-gradient"></div>

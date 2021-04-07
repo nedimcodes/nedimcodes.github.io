@@ -5,7 +5,18 @@
     <link>https://nedimcodes.com/</link>
     <description>Recent content on nedimcodes</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://nedimcodes.com/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Wed, 07 Apr 2021 21:53:07 +0200</lastBuildDate><atom:link href="https://nedimcodes.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Contribute Code to Signal</title>
+      <link>https://nedimcodes.com/post/how-to-contribute-code-to-signal/</link>
+      <pubDate>Wed, 07 Apr 2021 21:53:07 +0200</pubDate>
+      
+      <guid>https://nedimcodes.com/post/how-to-contribute-code-to-signal/</guid>
+      <description>What is Signal Signal is app that has skyrocketed in popularity with beginning of this year, with huge spikes in user migrating from Whatsapp because controversy new Privacy Policy that was introduced.
+Let&amp;rsquo;s build it First thing to understand, Signal is huge project. It has a lot of code, it was written originally in Objective C but throughout the years new features were added in Swift, so it has healthy amount of both languages in it&amp;rsquo;s codebase.</description>
+    </item>
+    
     <item>
       <title></title>
       <link>https://nedimcodes.com/about/</link>
