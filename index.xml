@@ -6,17 +6,7 @@
     <description>Recent content on nedimcodes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 Apr 2021 19:50:04 +0200</lastBuildDate><atom:link href="https://nedimcodes.com/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Github has new opengraph image.Here is how to generate one your self</title>
-      <link>https://nedimcodes.com/post/github-new-og/</link>
-      <pubDate>Thu, 08 Apr 2021 19:50:04 +0200</pubDate>
-      
-      <guid>https://nedimcodes.com/post/github-new-og/</guid>
-      <description>Github has new opengraph image Github CEO tweeted few minutes ago, that github is working on new way to share repos and pull requests across interent.
-What is opengraph? According to ogp.me: The Open Graph protocol enables any web page to become a rich object in a social graph. For instance, this is used on Facebook to allow any web page to have the same functionality as any other object on Facebook.</description>
-    </item>
-    
+    <lastBuildDate>Wed, 07 Apr 2021 21:53:07 +0200</lastBuildDate><atom:link href="https://nedimcodes.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to Contribute Code to Signal</title>
       <link>https://nedimcodes.com/post/how-to-contribute-code-to-signal/</link>
