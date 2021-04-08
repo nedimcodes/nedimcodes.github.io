@@ -6,7 +6,19 @@
     <description>Recent content on nedimcodes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 07 Apr 2021 21:53:07 +0200</lastBuildDate><atom:link href="https://nedimcodes.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Apr 2021 19:50:04 +0200</lastBuildDate><atom:link href="https://nedimcodes.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Github has new opengraph image. Here is how to generate one your self</title>
+      <link>https://nedimcodes.com/post/github-new-og/</link>
+      <pubDate>Thu, 08 Apr 2021 19:50:04 +0200</pubDate>
+      
+      <guid>https://nedimcodes.com/post/github-new-og/</guid>
+      <description>Github has new opengraph image Github CEO tweeted today, that Github is working on a new way to share repos and pull requests across the internet.
+New opengraph preview will support repos and PRs. Something we&amp;#39;ve wanted to do for a long time is to make GitHub&amp;#39;s opengraph preview images more dynamic and useful.
+So we are experimenting with a new design now. Let @JasonEtco know what you think!https://t.co/ArM49KvA4f
+&amp;mdash; Nat Friedman (@natfriedman) April 8, 2021    .</description>
+    </item>
+    
     <item>
       <title>How to Contribute Code to Signal</title>
       <link>https://nedimcodes.com/post/how-to-contribute-code-to-signal/</link>
